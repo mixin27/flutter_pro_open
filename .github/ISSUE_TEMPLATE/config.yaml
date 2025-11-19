@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project discussions
+    url: https://github.com/mixin27/flutter_pro_open/discussions
+    about: Ask general questions, for help, or submit new ideas for discussion.

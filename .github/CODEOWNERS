@@ -1,0 +1,8 @@
+# Automatically request review for these files from these teams/users
+# Format: pattern  @github-username or @org/team
+
+# lib/        @mixin27 @myorg/flutter-team
+# .github/    @myorg/ci-admins
+# test/       @tester
+
+*           @mixin27

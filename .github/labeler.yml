@@ -1,0 +1,10 @@
+lib/api/:
+  - area: api
+lib/ui/:
+  - area: ui
+test/:
+  - area: tests
+.github/:
+  - area: ci
+example/:
+  - area: example

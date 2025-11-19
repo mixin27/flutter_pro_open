@@ -1,0 +1,53 @@
+name: Bug report
+description: Create a report to help us improve
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Please fill out this bug report template as completely as possible.
+  - type: input
+    id: version
+    attributes:
+      label: Flutter & Dart Version
+      description: Output of `flutter --version`
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: A clear and concise description of what the bug is.
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps, sample code, or a minimal reproducible example.
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      required: false
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Stack trace or logs
+      description: Please paste any relevant error messages or logs here
+      render: shell
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using the latest stable version of Flutter and the package.
+        - label: I have searched the [issue tracker](../) for a similar issue.
+        - label: I have provided enough system info, code, and steps to reproduce.

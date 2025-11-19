@@ -1,0 +1,15 @@
+name: Maintenance/Task
+description: Project, refactoring, or infrastructure task
+labels: [task, triage]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Task overview
+      description: What is the scope and motivation for this task?
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline/milestone (optional)
+      required: false
